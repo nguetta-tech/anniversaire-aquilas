@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080914">
+  <meta name="description" content="Une expérience spéciale pour célébrer Aquilas. Joyeux anniversaire, légende du code !">
+  <title>Happy Birthday Aquilas ✦</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="stars" aria-hidden="true"></canvas>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <div class="scanlines" aria-hidden="true"></div>
+
+  <nav class="topbar">
+    <a class="brand" href="#" aria-label="Accueil"><span class="brand-mark">A<span>✦</span></span><span>aquilas<span class="brand-dot">.dev</span></span></a>
+    <div class="status"><span class="status-dot"></span> ÉDITION ANNIVERSAIRE <span class="status-sep">/</span> v.∞</div>
+    <button class="sound-toggle" id="soundToggle" aria-label="Activer ou désactiver le son"><span class="sound-icon">♫</span><span id="soundLabel">SON OFF</span></button>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <div class="eyebrow"><span class="eyebrow-line"></span> LE JOUR OÙ LA LÉGENDE A COMMENCÉ <span class="eyebrow-line"></span></div>
+      <div class="portrait-stage">
+        <div class="portrait-frame"><img src="assets/aquilas.webp" alt="Photo d’Aquilas"></div>
+        <div class="portrait-sticker sticker-top">BIRTHDAY<br><b>BOY ✳</b></div>
+        <div class="portrait-sticker sticker-bottom"><span class="sticker-dot"></span> AQUILAS / 001</div>
+        <span class="portrait-cross cross-one">✳</span><span class="portrait-cross cross-two">✦</span>
+      </div>
+      <div class="hero-copy">
+        <p class="kicker">AUJOURD’HUI, C’EST TON JOUR</p>
+        <h1>Happy Birthday<span class="name-line">AQUILAS<span class="name-period">.</span></span></h1>
+        <p class="hero-sub">Aujourd'hui, le monde célèbre une personne.<br><span>Le monde du code célèbre une légende.</span></p>
+        <button class="main-cta" id="revealBtn"><span>Déployer la surprise</span><span class="cta-arrow">↗</span></button>
+        <p class="tiny-hint"><span class="hint-dot"></span> ATTENTION : RISQUE ÉLEVÉ DE SOURIRE</p>
+      </div>
+      <div class="side-label side-left">MADE WITH <span>♥</span> &amp; A LITTLE MAGIC</div>
+      <div class="side-label side-right">BUILDING THE NEXT CHAPTER — 2026</div>
+      <div class="scroll-cue"><span></span> SCROLL TO EXPLORE</div>
+    </section>
+
+    <section class="message-section" id="message">
+      <div class="section-index">01 <span>/ MESSAGE FROM THE UNIVERSE</span></div>
+      <div class="message-card">
+        <div class="card-glow"></div>
+        <div class="terminal-top"><span class="terminal-lights"><i></i><i></i><i></i></span><span>birthday_message.js</span><span class="terminal-lock">● ENCRYPTED WITH LOVE</span></div>
+        <div class="code-message">
+          <p><span class="line-no">01</span><span class="code-purple">const</span> <span class="code-blue">today</span> = <span class="code-green">"Aquilas' Day"</span>;</p>
+          <p><span class="line-no">02</span><span class="code-purple">const</span> <span class="code-blue">wish</span> = {</p>
+          <p><span class="line-no">03</span>&nbsp;&nbsp; happiness: <span class="code-orange">Infinity</span>,</p>
+          <p><span class="line-no">04</span>&nbsp;&nbsp; success: <span class="code-orange">"sudo unstoppable"</span>,</p>
+          <p><span class="line-no">05</span>&nbsp;&nbsp; bugs: <span class="code-orange">0</span>,</p>
+          <p><span class="line-no">06</span>&nbsp;&nbsp; dreams: <span class="code-orange">"all deployed"</span>,</p>
+          <p><span class="line-no">07</span>&nbsp;&nbsp; goodVibes: <span class="code-orange">true</span></p>
+          <p><span class="line-no">08</span>};</p>
+          <p><span class="line-no">09</span><span class="code-purple">function</span> <span class="code-yellow">celebrate</span>() {</p>
+          <p><span class="line-no">10</span>&nbsp;&nbsp; <span class="code-purple">return</span> <span class="code-green">"Joyeux anniversaire, Aquilas ! 🎂"</span>;</p>
+          <p><span class="line-no">11</span>}</p>
+          <p><span class="line-no">12</span><span class="code-comment">// Aujourd'hui, tu es le feature principal.</span><span class="cursor">▌</span></p>
+        </div>
+        <div class="terminal-bottom"><span><span class="live-dot"></span> Build successful</span><span>0 errors · ∞ possibilities</span></div>
+      </div>
+      <div class="message-copy">
+        <span class="mini-label">UN MESSAGE RIEN QUE POUR TOI</span>
+        <h2>Le meilleur est<br><span>encore à venir.</span></h2>
+        <p>Que cette nouvelle année de vie soit remplie de projets qui cartonnent, d'idées qui deviennent réalité, de portes qui s'ouvrent et de moments qui valent tous les likes du monde.</p>
+        <p class="message-emphasis">Continue de rêver grand, de créer fort et de laisser ta marque. Le monde n'a pas encore vu tout ce que tu sais construire. 🚀</p>
+        <div class="signature">— Ton complice du jour <span>✦</span></div>
+      </div>
+    </section>
+
+    <section class="stats-section">
+      <div class="section-index">02 <span>/ PATCH NOTES — NEW AGE UNLOCKED</span></div>
+      <h2 class="stats-title">Aquilas v<span class="gradient-text">+</span>1.0</h2>
+      <p class="stats-sub">Nouveaux pouvoirs ajoutés à cette version.</p>
+      <div class="stats-grid">
+        <article class="stat-card"><div class="stat-icon">✧</div><div class="stat-number">∞</div><h3>Possibilités</h3><p>Parce que tes limites viennent d'être supprimées.</p><span class="card-index">PATCH_001</span></article>
+        <article class="stat-card featured"><div class="stat-icon">↗</div><div class="stat-number">100<span>%</span></div><h3>Évolution</h3><p>Une nouvelle année pour monter encore de niveau.</p><span class="card-index">PATCH_002</span></article>
+        <article class="stat-card"><div class="stat-icon">♥</div><div class="stat-number">MAX</div><h3>Bonheur</h3><p>Le bonheur en production, pas seulement en local.</p><span class="card-index">PATCH_003</span></article>
+      </div>
+    </section>
+
+    <section class="final-section">
+      <div class="final-ring ring-one"></div><div class="final-ring ring-two"></div>
+      <div class="final-content">
+        <div class="final-spark">✦</div>
+        <p class="mini-label">UN PETIT MOT POUR LA ROUTE</p>
+        <h2>Reste vrai.<br><span>Vise grand.</span></h2>
+        <p class="final-text">Continue de créer, d’apprendre et de surprendre.<br>Le prochain niveau t’attend. Joyeux anniversaire ! 🧡</p>
+        <button class="celebrate-btn" id="celebrateBtn"><span>✦</span> LANCER LES FESTIVITÉS <span>✦</span></button>
+        <p class="final-note">Un site fait spécialement pour toi · Aquilas © 2026</p>
+      </div>
+    </section>
+  </main>
+
+  <footer><a class="brand footer-brand" href="#"><span class="brand-mark">A<span>✦</span></span><span>aquilas<span class="brand-dot">.dev</span></span></a><p>Made with <span>♥</span>, caffeine &amp; clean code.</p><a href="#top" class="back-top">BACK TO TOP ↑</a></footer>
+  <div class="toast" id="toast">🎉 Surprise déployée avec succès !</div>
+  <script src="script.js"></script>
+</body>
+</html>
